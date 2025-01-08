@@ -10,6 +10,8 @@ base = "light"
 [client]
 toolbarMode = "minimal"
 showErrorDetails = false
+showToolbar = false
 
 [global]
 developmentMode = false
+sharingMode = "off"
