@@ -73,6 +73,16 @@ def user_input(user_question, api_key):
 
 def main():
     st.set_page_config("Chat PDF")
+    
+    # Hide the GitHub logo and disable "View source"
+    hide_github_icon = """
+    <style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    </style>
+    """
+    st.markdown(hide_github_icon, unsafe_allow_html=True)
+    
     st.header("DMCLI 🤖")
 
     api_key = st.text_input("Enter your Gemini API key", type="password")
