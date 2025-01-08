@@ -73,7 +73,7 @@ def user_input(user_question, api_key):
 
 def main():
     st.set_page_config("Chat PDF")
-    st.header("Chat with PDF using Gemini 🤖")
+    st.header("DMCLI Chatbot 🤖")
 
     api_key = st.text_input("Enter your Gemini API key", type="password")
     user_question = st.text_input("Ask a Question from the PDF Files")

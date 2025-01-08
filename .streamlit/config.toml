@@ -1,0 +1,15 @@
+[server]
+enableXsrfProtection = false
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "light"
+
+[client]
+toolbarMode = "minimal"
+showErrorDetails = false
+
+[global]
+developmentMode = false
