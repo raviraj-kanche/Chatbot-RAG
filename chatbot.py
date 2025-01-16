@@ -83,7 +83,7 @@ def main():
     """
     st.markdown(hide_github_icon, unsafe_allow_html=True)
     
-    st.header("DMCLI 🤖")
+    st.header("DMCLI Chatbot 🤖")
 
     api_key = st.text_input("Enter your Gemini API key", type="password")
     user_question = st.text_input("Ask a Question from the PDF Files")
