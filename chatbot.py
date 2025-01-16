@@ -74,13 +74,15 @@ def user_input(user_question, api_key):
 def main():
     st.set_page_config("Chat PDF")
     
-    # Hide the GitHub logo and disable "View source"
+    # Hide the GitHub logo, disable "View source", and hide Streamlit menu
     st.markdown(
         """
         <style>
+        #MainMenu {visibility: hidden;}
+        footer {visibility: hidden;}
         .css-1jc7ptx, .e1ewe7hr3, .viewerBadge_container__1QSob,
         .styles_viewerBadge__1yB5_, .viewerBadge_link__1S137,
-        .viewerBadge_text__1JaDK {
+        .viewerBadge_text__1JaDK, .stDeployButton {
             display: none;
         }
         </style>
