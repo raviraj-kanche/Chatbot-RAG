@@ -11,7 +11,11 @@ base = "dark"
 toolbarMode = "minimal"
 showErrorDetails = false
 showToolbar = false
+showSidebarNavigation = false
 
 [global]
 developmentMode = false
 sharingMode = "off"
+
+[ui]
+hideTopBar = true
