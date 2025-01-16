@@ -5,7 +5,7 @@ enableXsrfProtection = false
 gatherUsageStats = false
 
 [theme]
-base = "light"
+base = "dark"
 
 [client]
 toolbarMode = "minimal"
