@@ -93,7 +93,7 @@ def main():
     st.header("DMCLI Chatbot 🤖")
 
     api_key = st.text_input("Enter your Gemini API key", type="password")
-    user_question = st.text_input("Ask a Question from the PDF Files")
+    user_question = st.text_input("Which DMCLI command you would like to know")
 
     if user_question and api_key:
         user_input(user_question, api_key)
