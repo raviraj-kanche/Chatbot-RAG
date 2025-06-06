@@ -60,4 +60,4 @@ This project requires a Google Gemini API key to function. Make sure you have a 
 
 ## License
 
-[Add your chosen license here].
+[Add your chosen license here]
